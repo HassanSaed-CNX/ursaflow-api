@@ -1,0 +1,13 @@
+{
+  "name": "ursaflow",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "test": "echo \"No tests yet\""
+  }
+}
